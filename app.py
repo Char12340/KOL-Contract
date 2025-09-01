@@ -29,7 +29,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header
-st.markdown('<div class="title">📄 KOC Contract Generator</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">📄 KOL Contract Generator</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Coded by Char</div>', unsafe_allow_html=True)
 st.markdown("---")
 
