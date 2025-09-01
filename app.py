@@ -60,7 +60,7 @@ if uploaded_csv and uploaded_template:
                     'Influencer_email': row.get('Email', ''),
                     'Influencer_contact': row.get('Contact', ''),
                     'Influencer_address': row.get('Address', ''),
-                     'platform': str(row['Platform']).replace("&", " & "),
+                     'platform': str(row['Platform']).replace("&", "&amp;"),
                     'Representation': row.get('Representation',''),
                     'platform_username': row.get('Platform username', ''),
                     'Influencer_links': row.get('Links', ''),
